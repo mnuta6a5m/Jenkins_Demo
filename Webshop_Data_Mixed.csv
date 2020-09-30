@@ -1,0 +1,15 @@
+site,application,payment_method,sku,street_IA,street2_IA,state,country,postalCode_IA,city_IA,postalCode_SA,city_SA,street_SA,street2_SA,street3_SA,lang,email_id,shipping_method
+TomTom-AMER-Site,US,ADYEN_HPP,MUS.013.12,55 Chesswood Court,123,TX,United States,77566,Lake Jackson,77566,Lake Jackson,55 Chesswood Court,123,45,en_US,PP_ISH_Perf_User_US_101@tomtomtest.com,ATC_STD
+TomTom-AMER-Site,US,ADYEN_HPP,MUS.013.12,55 Chesswood Court,123,TX,United States,77566,Lake Jackson,77566,Lake Jackson,55 Chesswood Court,123,45,en_US,PP_ISH_Perf_User_US_102@tomtomtest.com,ATC_STD
+TomTom-AMER-Site,CA,ADYEN_HPP,1SC0.002.06,234 Laurier Avenue West,123,ON,Canada,K1A 0G9,Ottawa,K1A 0G9,Ottawa,234 Laurier Avenue West,123,45,en_CA,PP_ISH_Perf_User_CA_101@tomtomtest.com,CA_STD
+TomTom-AMER-Site,CA,ADYEN_HPP,1SC0.002.06,234 Laurier Avenue West,123,ON,Canada,K1A 0G9,Ottawa,K1A 0G9,Ottawa,234 Laurier Avenue West,123,45,en_CA,PP_ISH_Perf_User_CA_102@tomtomtest.com,CA_STD
+TomTom-APAC-Site,AU,ADYEN_HPP,1SDN.69.00,Google Australia Pty Ltd. Leve,,QLD,NSW 2009,Pyrmont,Sydney,Pyrmont,Sydney,test,123,45,en_AU,PP_ISH_Perf_User_AU_101@tomtomtest.com,STR_STD
+TomTom-APAC-Site,AU,ADYEN_HPP,1SDN.69.00,Google Australia Pty Ltd. Leve,,QLD,NSW 2009,Pyrmont,Sydney,Pyrmont,Sydney,test,123,45,en_AU,PP_ISH_Perf_User_AU_102@tomtomtest.com,STR_STD
+TomTom-APAC-Site,NZ,ADYEN_HPP,MUS.025.03,362 Leith St,,North Dunedin,New Zealand,9016,Dunedin,9016,Dunedin,test,123,45,en_NZ,PP_ISH_Perf_User_NZ_101@tomtomtest.com,STR_STD
+TomTom-APAC-Site,NZ,ADYEN_HPP,MUS.025.03,362 Leith St,,North Dunedin,New Zealand,9016,Dunedin,9016,Dunedin,test,123,45,en_NZ,PP_ISH_Perf_User_NZ_102@tomtomtest.com,STR_STD
+TomTom-EMEA-Site,GB,ADYEN_HPP,MUS.013.03,2800 South Alabama Ave.,,AL,United Kingdom,WC2N 5DU,Arnhem,as23cd,test,test,123,45,en_GB,PP_ISH_Perf_User_GB_101@tomtomtest.com,ML_STD
+TomTom-EMEA-Site,GB,ADYEN_HPP,MUS.013.03,2800 South Alabama Ave.,,AL,United Kingdom,WC2N 5DU,Arnhem,as23cd,test,test,123,45,en_GB,PP_ISH_Perf_User_GB_102@tomtomtest.com,ML_STD
+TomTom-EMEA-Site,DE,ADYEN_HPP,1SC0.001.10,test,123,,Germany,28195,test,28195,test,test,123,34,de_DE,PP_ISH_Perf_User_DE_102@tomtomtest.com,ML_STD
+TomTom-EMEA-Site,DE,ADYEN_HPP,1SC0.001.10,2800 South Alabama Ave.,AL,,Germany,49080,Arnhem,28195,test,123,123,tetst,de_DE,PP_ISH_Perf_User_DE_101@tomtomtest.com,ML_STD
+TomTom-EMEA-Site,NL,ADYEN_HPP,1SDN.002.22,2800 South Alabama Ave.,AL,,Netherlands,6842AP,Arnhem,2500AD,Venray,Testrik,123,45,nl_NL,PP_ISH_Perf_User_NL_101@tomtomtest.com,ML_STD
+TomTom-EMEA-Site,NL,ADYEN_HPP,1SDN.002.22,2800 South Alabama Ave.,AL,,Netherlands,6842AP,Arnhem,2500AD,test,test,123,45,nl_NL,PP_ISH_Perf_User_NL_102@tomtomtest.com,ML_STD
