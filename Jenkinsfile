@@ -13,7 +13,8 @@ pipeline {
       }
       stage('Publish performance results') {
          steps {
-           perfReport compareBuildPrevious: true, errorFailedThreshold: 1, errorUnstableThreshold: 1, filterRegex: '', sourceDataFiles: 'D:/Jenkins_Load_Tests/ISH_Test/*.jtl'
+           perfReport compareBuildPrevious: true, errorFailedThreshold: 1, errorUnstableResponseTimeThreshold: '''BenchLow_results_round1.jtl:500
+BenchLow_results_round2.jtl:600''', errorUnstableThreshold: 1, filterRegex: '', sourceDataFiles: 'D:/Jenkins_Load_Tests/ISH_Test/*.jtl'
           }
          }
       }
