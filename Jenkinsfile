@@ -6,14 +6,14 @@ pipeline {
    stages {
       stage('Run Jmeter Test') {
          steps {
-           bat 'D:/JMETER/apache-jmeter-4.0/bin/jmeter.bat -n -t D:/Intershop/Intershop7_B2C/Jenkins/ISH_Mixed_NewPaymentFlow_BenchLow.jmx -l D:/Intershop/Intershop7_B2C/Jenkins/results_round1.jtl'
+           bat 'D:/JMETER/apache-jmeter-4.0/bin/jmeter.bat -n -t D:/Jenkins_Load_Tests/ISH_Test/ISH_Mixed_NewPaymentFlow_BenchLow.jmx -l D:/Jenkins_Load_Tests/ISH_Test/BenchLow_results_round1.jtl'
            sleep time: 1, unit: 'MINUTES'
-           bat 'D:/JMETER/apache-jmeter-4.0/bin/jmeter.bat -n -t D:/Intershop/Intershop7_B2C/Jenkins/ISH_Mixed_NewPaymentFlow_BenchLow.jmx -l D:/Intershop/Intershop7_B2C/Jenkins/results_round2.jtl'
+           bat 'D:/JMETER/apache-jmeter-4.0/bin/jmeter.bat -n -t D:/Jenkins_Load_Tests/ISH_Test/ISH_Mixed_NewPaymentFlow_BenchLow.jmx -l D:/Jenkins_Load_Tests/ISH_Test/BenchLow_results_round2.jtl'
          }
       }
       stage('Publish performance results') {
          steps {
-           perfReport compareBuildPrevious: true, errorFailedThreshold: 1, errorUnstableThreshold: 1, filterRegex: '', sourceDataFiles: 'D:/Intershop/Intershop7_B2C/Jenkins/*.jtl'
+           perfReport compareBuildPrevious: true, errorFailedThreshold: 1, errorUnstableThreshold: 1, filterRegex: '', sourceDataFiles: 'D:/Jenkins_Load_Tests/ISH_Test/*.jtl'
           }
          }
       }
